@@ -1,0 +1,27 @@
+Release 2.10.0.150 mainly enhances the LAN-XI Open API. Features included are:
+LXISW-2841 Fixed problem with PTP from External master on multiple modules (Open API Specific).
+LXISW-2794 Reboot with REST command documented (Open API Specific).
+LXISW-2792 Built-in function generators supported (until now only streaming was supported) (Open API Specific).
+LXISW-2787 Generator phase implemented (Open API Specific).
+LXISW-2786 Single channel streams now an option (default is to have all channels in a single stream) (Open API Specific).
+LXISW-2829 External PTP fully functional (trigger master included) (Open API Specific).
+LXISW-2822 GPS-coordinates can be read via REST (must have GPS in frame) (Open API Specific).
+LXISW-2820 Fixed problem with BKC clock-ID and multiple modules.
+LXISW-2817 Abide to standard TAI/UTC time and leapseconds (Open API Specific).
+LXISW-2802 Unnecessary restart of PTP removed (Open API Specific).
+LXISW-2782 Support for modules in various frames (Open API Specific).
+UA3122  Support for 3122 front panel T-insert and switches with mixed 100 Mbps and 1000 Mbps (Open API Specific).
+
+Change history
+2.10.0.150 Support for 3122 front panel T-insert and switches with mixed 100 Mbps and 1000 Mbps.
+           Both the above are already supported in Labshop & BK-Connect. This version updates the API.
+2.10.0.44  Fixes a newly introduced error:
+	   #LXISW-2848 3057 Bridge module cannot set bridge excitation after change of remote sense.
+2.10.0.27  Includes a number of new Open API features as well as a few minor resource-leaks and:
+           #LXISW-2808 PTP understands TAI
+           #LXISW-2845 GPS week rollover
+           #LXISW-2844 GPS Antenna removal does not affect locked status
+2.9.0.552  enables Notar and SD-recording
+2.9.0.294  "Instant RPM" noise removed on 3056 Tacho-module - defect #LXISW-2761
+2.9.0.215  released with the official BK-Connect 2018.1 - build 22.2.0.98.
+2.9.0.294  contains a fix for LXISW-2761 - relating to the 3056 Tacho module.
