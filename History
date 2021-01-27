@@ -1,3 +1,7 @@
+Release 2.10.0.344 has 2 main features
+Free unlimited acces to Open API
+Open API CIC support
+
 Release 2.10.0.150 mainly enhances the LAN-XI Open API. Features included are:
 LXISW-2841 Fixed problem with PTP from External master on multiple modules (Open API Specific).
 LXISW-2794 Reboot with REST command documented (Open API Specific).
@@ -13,6 +17,7 @@ LXISW-2782 Support for modules in various frames (Open API Specific).
 UA3122  Support for 3122 front panel T-insert and switches with mixed 100 Mbps and 1000 Mbps (Open API Specific).
 
 Change history
+2.10.0.344 Free unlimited access to Open API and CIC support
 2.10.0.150 Support for 3122 front panel T-insert and switches with mixed 100 Mbps and 1000 Mbps.
            Both the above are already supported in Labshop & BK-Connect. This version updates the API.
 2.10.0.44  Fixes a newly introduced error:
