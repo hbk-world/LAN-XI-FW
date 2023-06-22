@@ -1,3 +1,6 @@
+# $${\color{red}MOVED}$$
+# https://github.com/hbkworld/LAN-XI-FW
+
 # LAN-XI-FW
 Binary releases of LAN-XI firmware and manual (programmers reference).  
 This repo contains no code. Instead it contains Binary firmware for LAN-XI.  
